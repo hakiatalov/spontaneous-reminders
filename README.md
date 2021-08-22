@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This app generates a set of randomly recurring times for a single event and exports an ICS file to upload into a calendar.<br /><br />
+Use cases:<br />
+Calendar events to spontaneously stay in touch with friends<br />
+Spontaneoulsy reminded to buy a gift for a spouse <br />
+Spontantously reminded to take a short break from work or go on a hike for the weekend<br />
+
 ## Available Scripts
 
 In the project directory, you can run:
