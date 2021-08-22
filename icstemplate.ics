@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+PRODID:-//Spontaneous Reminders//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+  BEGIN:VEVENT
+    DTSTART:20200103T223000Z
+    DTEND:20200103T233000Z
+    DTSTAMP:20200103T221605Z
+    UID:4fpukk6ntc8thlmeob2lfls310@google.com
+    DESCRIPTION:buy some flowers
+    LOCATION:Home Depot Support Center
+    SEQUENCE:0
+    STATUS:CONFIRMED
+    SUMMARY:Buy flowers
+    TRANSP:TRANSPARENT
+    BEGIN:VALARM
+      ACTION:EMAIL
+      DESCRIPTION:This is an event reminder
+      SUMMARY:Alarm notification
+      ATTENDEE:mailto:hatalov@gmail.com
+      TRIGGER:-P2D
+    END:VALARM
+    BEGIN:VALARM
+      ACTION:EMAIL
+      DESCRIPTION:This is an event reminder
+      SUMMARY:Alarm notification
+      ATTENDEE:mailto:hatalov@gmail.com
+      TRIGGER:-P0DT0H30M0S
+    END:VALARM
+    BEGIN:VALARM
+      ACTION:DISPLAY
+      DESCRIPTION:This is an event reminder
+      TRIGGER:-P0DT0H30M0S
+    END:VALARM
+    BEGIN:VALARM
+      ACTION:EMAIL
+      DESCRIPTION:This is an event reminder
+      SUMMARY:Alarm notification
+      ATTENDEE:mailto:hatalov@gmail.com
+      TRIGGER:-P0DT6H0M0S
+    END:VALARM
+    BEGIN:VALARM
+      ACTION:EMAIL
+      DESCRIPTION:This is an event reminder
+      SUMMARY:Alarm notification
+      ATTENDEE:mailto:hatalov@gmail.com
+      TRIGGER:-P7D
+    END:VALARM
+  END:VEVENT
+
+  BEGIN:VEVENT
+    DTSTART;VALUE=DATE:20200103
+    DTEND;VALUE=DATE:20200104
+    DTSTAMP:20200103T221605Z
+    UID:1a0d6aqgln5a5q9pakm0gllf3o@google.com
+    DESCRIPTION:buy some flowers
+    LOCATION:Home Depot Support Center
+    SEQUENCE:0
+    STATUS:CONFIRMED
+    SUMMARY:Buy flowers
+    TRANSP:TRANSPARENT
+    BEGIN:VALARM
+      ACTION:EMAIL
+      DESCRIPTION:This is an event reminder
+      SUMMARY:Alarm notification
+      ATTENDEE:mailto:hatalov@gmail.com
+      TRIGGER:-P0DT7H30M0S
+    END:VALARM
+    BEGIN:VALARM
+      ACTION:DISPLAY
+      DESCRIPTION:This is an event reminder
+      TRIGGER:-P0DT0H30M0S
+    END:VALARM
+    BEGIN:VALARM
+      ACTION:EMAIL
+      DESCRIPTION:This is an event reminder
+      SUMMARY:Alarm notification
+      ATTENDEE:mailto:hatalov@gmail.com
+      TRIGGER:-P6DT15H0M0S
+    END:VALARM
+  END:VEVENT
+END:VCALENDAR
